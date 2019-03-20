@@ -12,6 +12,7 @@
 		C27E277B224288B400F3AFC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27E2779224288B400F3AFC4 /* Main.storyboard */; };
 		C27E277D224288B500F3AFC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27E277C224288B500F3AFC4 /* Assets.xcassets */; };
 		C27E2780224288B500F3AFC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27E277E224288B500F3AFC4 /* LaunchScreen.storyboard */; };
+		C27E278A2242903400F3AFC4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C27E27892242903400F3AFC4 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C27E277C224288B500F3AFC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C27E277F224288B500F3AFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C27E2781224288B500F3AFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27E27892242903400F3AFC4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		C27E2769224288B400F3AFC4 = {
 			isa = PBXGroup;
 			children = (
+				C27E27892242903400F3AFC4 /* .gitignore */,
 				C27E2774224288B400F3AFC4 /* BullsEye */,
 				C27E2773224288B400F3AFC4 /* Products */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27E278A2242903400F3AFC4 /* .gitignore in Resources */,
 				C27E2780224288B500F3AFC4 /* LaunchScreen.storyboard in Resources */,
 				C27E277D224288B500F3AFC4 /* Assets.xcassets in Resources */,
 				C27E277B224288B400F3AFC4 /* Main.storyboard in Resources */,
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3Z2Z567H;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3Z2Z567H;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
