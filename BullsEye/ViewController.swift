@@ -21,7 +21,7 @@ class ViewController: UIViewController {
                                       message: message,
                                       preferredStyle: .alert)
         
-        let action = UIAlertAction(title: "Awesome", style: .default,
+        let action = UIAlertAction(title: "O.K", style: .default,
                                    handler: nil)
         
         alert.addAction(action)
