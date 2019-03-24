@@ -209,13 +209,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="scoreLabel" destination="yn7-ny-yDe" id="tvs-YD-gPy"/>
                         <outlet property="slider" destination="yxM-eU-Ay2" id="Vpv-KF-GNs"/>
                         <outlet property="targetLabel" destination="hLS-kn-w4P" id="YE3-Bc-8Dd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="543" y="-17"/>
+            <point key="canvasLocation" x="285" y="-69"/>
         </scene>
     </scenes>
 </document>
