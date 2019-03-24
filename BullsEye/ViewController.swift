@@ -29,7 +29,23 @@ class ViewController: UIViewController {
     @IBAction func showAlert(){
         /* Score Setting */
         let difference = abs(targetValue - currentValue)
-        let points = 100 - difference
+        
+        /* For various points */
+        var points = 100 - difference
+        let title: String
+        if difference == 0 {
+            title = "Perfect!"
+            points += 100
+        } else if difference < 5 {
+            title = "You almost had it!"
+            if difference == 1 {
+                points += 50
+            }
+        } else if difference < 10 {
+            title = "Pretty good!"
+        } else {
+            title = "Not even close..."
+        }
         
         score += points
         
@@ -37,7 +53,7 @@ class ViewController: UIViewController {
         
         //let message = "The value of the slider is: \(currentValue)" + "\nThe target value is: \(targetValue)"
         
-        let alert = UIAlertController(title: "Hello, World",
+        let alert = UIAlertController(title: title,
                                       message: message,
                                       preferredStyle: .alert)
         
