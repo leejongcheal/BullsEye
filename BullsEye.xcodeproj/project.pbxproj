@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3DFA64C622472453009760CB /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA64C522472453009760CB /* AboutViewController.swift */; };
+		3DFA64C8224733E7009760CB /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 3DFA64C7224733E7009760CB /* BullsEye.html */; };
 		C27E2776224288B400F3AFC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27E2775224288B400F3AFC4 /* AppDelegate.swift */; };
 		C27E2778224288B400F3AFC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27E2777224288B400F3AFC4 /* ViewController.swift */; };
 		C27E277B224288B400F3AFC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27E2779224288B400F3AFC4 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		3DFA64C522472453009760CB /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3DFA64C7224733E7009760CB /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		C27E2772224288B400F3AFC4 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27E2775224288B400F3AFC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C27E2777224288B400F3AFC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				C27E2777224288B400F3AFC4 /* ViewController.swift */,
 				3DFA64C522472453009760CB /* AboutViewController.swift */,
 				C27E2779224288B400F3AFC4 /* Main.storyboard */,
+				3DFA64C7224733E7009760CB /* BullsEye.html */,
 				C27E277C224288B500F3AFC4 /* Assets.xcassets */,
 				C27E277E224288B500F3AFC4 /* LaunchScreen.storyboard */,
 				C27E2781224288B500F3AFC4 /* Info.plist */,
@@ -132,6 +135,7 @@
 				C27E2780224288B500F3AFC4 /* LaunchScreen.storyboard in Resources */,
 				C27E277D224288B500F3AFC4 /* Assets.xcassets in Resources */,
 				C27E277B224288B400F3AFC4 /* Main.storyboard in Resources */,
+				3DFA64C8224733E7009760CB /* BullsEye.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

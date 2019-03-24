@@ -240,25 +240,29 @@
                                     <action selector="close:" destination="92n-9z-gss" eventType="touchUpInside" id="d37-ty-iQH"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xEF-XJ-wGg">
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfv-Rs-XVF">
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="262"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="8vM-c0-LYV" firstAttribute="centerX" secondItem="j4k-Oh-z9v" secondAttribute="centerX" id="5LG-SR-Gak"/>
-                            <constraint firstItem="bPK-jg-QRh" firstAttribute="trailing" secondItem="xEF-XJ-wGg" secondAttribute="trailing" id="Eqi-4O-7BZ"/>
-                            <constraint firstItem="8vM-c0-LYV" firstAttribute="top" secondItem="xEF-XJ-wGg" secondAttribute="bottom" constant="8" id="PAB-kA-qXO"/>
-                            <constraint firstItem="xEF-XJ-wGg" firstAttribute="leading" secondItem="bPK-jg-QRh" secondAttribute="leading" id="SUu-UJ-i4g"/>
-                            <constraint firstItem="xEF-XJ-wGg" firstAttribute="top" secondItem="bPK-jg-QRh" secondAttribute="top" id="ZD9-DS-nw1"/>
+                            <constraint firstItem="hfv-Rs-XVF" firstAttribute="top" secondItem="bPK-jg-QRh" secondAttribute="top" id="YdV-jk-fUH"/>
                             <constraint firstItem="bPK-jg-QRh" firstAttribute="bottom" secondItem="8vM-c0-LYV" secondAttribute="bottom" constant="20" id="hbn-Gx-xBT"/>
+                            <constraint firstItem="bPK-jg-QRh" firstAttribute="trailing" secondItem="hfv-Rs-XVF" secondAttribute="trailing" id="i6l-Kk-gpg"/>
+                            <constraint firstItem="hfv-Rs-XVF" firstAttribute="leading" secondItem="bPK-jg-QRh" secondAttribute="leading" id="nCk-30-ir2"/>
+                            <constraint firstItem="8vM-c0-LYV" firstAttribute="top" secondItem="hfv-Rs-XVF" secondAttribute="bottom" constant="8" id="qLf-bJ-9nP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bPK-jg-QRh"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="hfv-Rs-XVF" id="Dmx-Bl-VGX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5jb-lG-Xvs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
