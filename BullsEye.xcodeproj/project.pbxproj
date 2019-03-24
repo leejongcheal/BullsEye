@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DFA64C622472453009760CB /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA64C522472453009760CB /* AboutViewController.swift */; };
 		C27E2776224288B400F3AFC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27E2775224288B400F3AFC4 /* AppDelegate.swift */; };
 		C27E2778224288B400F3AFC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27E2777224288B400F3AFC4 /* ViewController.swift */; };
 		C27E277B224288B400F3AFC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27E2779224288B400F3AFC4 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DFA64C522472453009760CB /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		C27E2772224288B400F3AFC4 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27E2775224288B400F3AFC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C27E2777224288B400F3AFC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				C27E2775224288B400F3AFC4 /* AppDelegate.swift */,
 				C27E2777224288B400F3AFC4 /* ViewController.swift */,
+				3DFA64C522472453009760CB /* AboutViewController.swift */,
 				C27E2779224288B400F3AFC4 /* Main.storyboard */,
 				C27E277C224288B500F3AFC4 /* Assets.xcassets */,
 				C27E277E224288B500F3AFC4 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DFA64C622472453009760CB /* AboutViewController.swift in Sources */,
 				C27E2778224288B400F3AFC4 /* ViewController.swift in Sources */,
 				C27E2776224288B400F3AFC4 /* AppDelegate.swift in Sources */,
 			);
