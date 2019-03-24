@@ -23,7 +23,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        startNewRound()
+        //startNewRound()
+        startNewGame()
     }
     
     @IBAction func showAlert(){
@@ -56,20 +57,29 @@ class ViewController: UIViewController {
         let alert = UIAlertController(title: title,
                                       message: message,
                                       preferredStyle: .alert)
-        
+        /* For Closure */
         let action = UIAlertAction(title: "O.K", style: .default,
-                                   handler: nil)
+                                   handler: { _ in
+                                    self.startNewRound()
+                                    })
         
         alert.addAction(action)
         
         present(alert, animated: true, completion: nil)
         
-        startNewRound()
+         //startNewRound()
 
     }
     @IBAction func sliderMoved(_ slider: UISlider) {
         currentValue = lroundf(slider.value)
         print(" The value of the slider is now:\(currentValue)")
+    }
+    
+    /* For startover button */
+    @IBAction func startNewGame() {
+        score = 0
+        round = 0
+        startNewRound()
     }
 
     func startNewRound() {
